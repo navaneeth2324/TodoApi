@@ -30,7 +30,7 @@ namespace TodoApi.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while creating the Todo item.");
+                _logger.LogError(ex, "An error occurred while creating a Todo item.");
                 throw new Exception("An error occurred while creating the Todo item.");
             }
         }
